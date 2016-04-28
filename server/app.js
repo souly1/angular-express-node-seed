@@ -21,14 +21,14 @@ var app = module.exports = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
- app.set('views', __dirname + '../client');
+ app.set('views', __dirname + '/../client');
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.use(morgan('dev'));
 app.use(bodyParser());
 app.use(methodOverride());
 app.use(express.static(path.join(__dirname, '/bower_components')));
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '/../client')));
 
 var env = process.env.NODE_ENV || 'development';
 
