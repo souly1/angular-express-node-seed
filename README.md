@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular, NodeJS and Express Scaffold!
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
