@@ -13,7 +13,7 @@ The seed app shows how to wire together Angular client-side components with Expr
 
 ## How to use angular-express-seed
 
-Clone the angular-express-seed repository, run `npm install` to grab the dependencies, and start hacking!
+Clone the angular-express-seed repository, run `npm install` under the `server` folder to grab the dependencies, and start hacking!
 
 ### Running the app
 
